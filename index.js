@@ -57,7 +57,6 @@ var app6 = new Vue({
 
 app6.message = 'Your name'
 
-
 Vue.component('todo-item',  {
     props: ['todo'],
     template: '<li>{{ todo.text }}</li>'
